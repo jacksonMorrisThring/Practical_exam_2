@@ -14,23 +14,23 @@ void odd_even(int vals[], int exmpl, int length){
         }
 
     for (int i = 0; i < length; i ++){
-       if (flag == true){
+       if (flag == false){
            if (i %2 == 0){
                if (i < length-1){
-                    cout << i << ":" << vals[i] << "\n";
+                    cout << i << ":" << vals[i] << " ";
                }
                else{
-                    cout << i << ":" << vals[i] << "\n";
+                    cout << i << ":" << vals[i] << " ";
                }
            }
        }
        else{
            if (i %2 != 0){
                if (i < length-1){
-                    cout << i << ":" << vals[i] << "\n";
+                    cout << i << ":" << vals[i] << " ";
                }
                else{
-                    cout << i << ":" << vals[i] << "\n";
+                    cout << i << ":" << vals[i] << " ";
                }
            }
 
