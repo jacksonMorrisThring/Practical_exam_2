@@ -14,9 +14,8 @@ string lookup_spectrum(int day){
     array[6] = "Violet";
 
        
-    if (1 < day  &&  7> day){
-        day = day -1;
-        return array[day];
+    if (1 <= day  &&  7 >= day){
+        return array[day-1];
     }
     else{
         return "invalid colour";
