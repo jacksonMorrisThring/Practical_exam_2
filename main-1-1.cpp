@@ -7,11 +7,13 @@ void display_array(int *vals, int num_vals);
 
 int main(){
     int number = 5;
-    int *ptr = create_ints(number);
+    int *ptr;
+    ptr = create_ints(number);
 
     cout << "ABOUT TO PRINT POINTER ADDRESS AND VALUE from main" << endl;
     cout << (ptr+0) <<  endl;
-    cout << *(ptr+0) <<  endl;
+    cout << *(ptr + 0) <<  endl;
+    
 
     display_array(ptr, number);
     return 0;

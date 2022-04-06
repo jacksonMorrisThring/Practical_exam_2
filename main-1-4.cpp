@@ -3,7 +3,7 @@
 using namespace std;
 #include <iostream>
 
-void odd_even(int vals[], int exmpl, int length);
+int* sparse_count(int **vals,int num_rows, int num_cols);
 
 int main(){
     int exmpl = 1;
