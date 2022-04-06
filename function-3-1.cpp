@@ -14,7 +14,7 @@ void odd_even(int vals[], int exmpl, int length){
         }
 
     for (int i = 0; i < length; i ++){
-       if (flag == false){
+       if (flag == true){
            if (i %2 == 0){
                if (i < length-1){
                     cout << i << ":" << vals[i] << "\n";
